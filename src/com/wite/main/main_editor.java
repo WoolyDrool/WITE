@@ -74,15 +74,20 @@ public class main_editor extends JFrame implements ActionListener
 		JMenuItem mi5 = new JMenuItem("Copy");
 		JMenuItem mi6 = new JMenuItem("Paste");
 		
+		// Font menu
+		JMenu m3 = new JMenu("Fonts");
+		
 		// Add action listener
 		mi4.addActionListener(this);
 		mi5.addActionListener(this);
 		mi6.addActionListener(this);
 		
+		
 		// Populate menu
 		m2.add(mi4);
 		m2.add(mi5);
 		m2.add(mi6);
+		
 		
 		JMenuItem mc = new JMenuItem("Close");
 		
@@ -90,6 +95,7 @@ public class main_editor extends JFrame implements ActionListener
 		
 		mb.add(m1);
 		mb.add(m2);
+		mb.add(m3);
 		mb.add(mc);
 		
 		f.setJMenuBar(mb);
