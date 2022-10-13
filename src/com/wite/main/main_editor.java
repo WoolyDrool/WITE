@@ -101,7 +101,7 @@ public class main_editor extends JFrame implements ActionListener
 		f.setJMenuBar(mb);
 		f.add(t);
 		f.setSize(500, 500);
-		f.show();
+		f.setVisible(true);
 	}
 	
 	public void actionPerformed(ActionEvent e)
