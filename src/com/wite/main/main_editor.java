@@ -19,7 +19,7 @@ import javax.swing.UIManager;
 import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.metal.OceanTheme;
 
-public class editor extends JFrame implements ActionListener
+public class main_editor extends JFrame implements ActionListener
 {
 
 	// Text
@@ -29,7 +29,7 @@ public class editor extends JFrame implements ActionListener
 	JFrame f;
 	
 	// Constructor
-	editor()
+	main_editor()
 	{
 		// Create frame
 		f = new JFrame("WITE");
@@ -189,7 +189,7 @@ public class editor extends JFrame implements ActionListener
 	// Main
 	public static void main(String args[])
 	{
-		editor e = new editor();
+		main_editor e = new main_editor();
 	}
 
 }
