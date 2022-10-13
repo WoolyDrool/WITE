@@ -189,7 +189,11 @@ public class main_editor extends JFrame implements ActionListener
 			t.setText("");
 		} else if (s.equals("Close")) {
 			f.setVisible(false);
+<<<<<<< Updated upstream
 		}
+=======
+		} 
+>>>>>>> Stashed changes
 	}
 	
 	// Main
